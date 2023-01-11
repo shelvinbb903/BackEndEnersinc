@@ -81,8 +81,10 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'USER': 'postgres',
-        'PASSWORD': '123456',
-        'NAME': 'pruebatecnica',
+        'PASSWORD': 'Z1lkzNQwPrFdkcNX3nkK',
+        'NAME': 'railway',
+        'HOST': 'containers-us-west-149.railway.app',
+        'PORT': '6243',
         'TEST': {
             'NAME': 'mytestdatabase',
         },
